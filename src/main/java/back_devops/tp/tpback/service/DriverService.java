@@ -16,16 +16,16 @@ public class DriverService {
     }
 
     private void seedData() {
-        addDriver("Lewis", "Hamilton", "Mercedes", 44, 39, "https://link-to-hamilton.jpg", 103, 192, 103, 2007);
-        addDriver("Max", "Verstappen", "Red Bull", 1, 26, "https://link-to-max.jpg", 53, 120, 43, 2015);
-        addDriver("Sebastian", "Vettel", "Retired", 5, 36, "https://link-to-vettel.jpg", 53, 122, 57, 2007);
-        addDriver("Fernando", "Alonso", "Aston Martin", 14, 42, "https://link-to-alonso.jpg", 32, 98, 22, 2001);
-        addDriver("Kimi", "Räikkönen", "Retired", 7, 44, "https://link-to-kimi.jpg", 21, 103, 18, 2001);
-        addDriver("Charles", "Leclerc", "Ferrari", 16, 26, "https://link-to-leclerc.jpg", 7, 28, 15, 2018);
-        addDriver("Lando", "Norris", "McLaren", 4, 24, "https://link-to-norris.jpg", 1, 12, 0, 2019);
-        addDriver("Daniel", "Ricciardo", "RB", 3, 34, "https://link-to-ricciardo.jpg", 8, 32, 3, 2011);
-        addDriver("Sergio", "Pérez", "Red Bull", 11, 34, "https://link-to-perez.jpg", 4, 60, 1, 2011);
-        addDriver("Valtteri", "Bottas", "Sauber", 77, 34, "https://link-to-bottas.jpg", 10, 60, 20, 2013);
+        addDriver("Lewis", "Hamilton", "Mercedes", 44, 39, "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lewis_Hamilton_2016_Malaysia_2.jpg/220px-Lewis_Hamilton_2016_Malaysia_2.jpg", 103, 192, 103, 2007);
+        addDriver("Max", "Verstappen", "Red Bull", 1, 26, "https://upload.wikimedia.org/wikipedia/commons/7/75/Max_Verstappen_2017_Malaysia_3.jpg", 53, 120, 43, 2015);
+        addDriver("Sebastian", "Vettel", "Retired", 5, 36, "https://upload.wikimedia.org/wikipedia/commons/b/b3/Sebastian_Vettel_2017_Malaysia_2.jpg", 53, 122, 57, 2007);
+        addDriver("Fernando", "Alonso", "Aston Martin", 14, 42, "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Alonso_2016.jpg/220px-Alonso_2016.jpg", 32, 98, 22, 2001);
+        addDriver("Kimi", "Räikkönen", "Retired", 7, 44, "https://upload.wikimedia.org/wikipedia/commons/4/4d/Kimi_Raikkonen_cropped.jpg", 21, 103, 18, 2001);
+        addDriver("Charles", "Leclerc", "Ferrari", 16, 26, "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Charles-Leclerc_%28cropped%29.jpg/640px-Charles-Leclerc_%28cropped%29.jpg", 7, 28, 15, 2018);
+        addDriver("Lando", "Norris", "McLaren", 4, 24, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2024-08-25_Motorsport%2C_Formel_1%2C_Großer_Preis_der_Niederlande_2024_STP_4016_by_Stepro_%28cropped%29.jpg/640px-2024-08-25_Motorsport%2C_Formel_1%2C_Großer_Preis_der_Niederlande_2024_STP_4016_by_Stepro_%28cropped%29.jpg", 1, 12, 0, 2019);
+        addDriver("Daniel", "Ricciardo", "RB", 3, 34, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Daniel_Ricciardo%2C_British_GP_2022_%2852381435327%29_%28cropped%29.jpg/640px-Daniel_Ricciardo%2C_British_GP_2022_%2852381435327%29_%28cropped%29.jpg", 8, 32, 3, 2011);
+        addDriver("Sergio", "Pérez", "Red Bull", 11, 34, "https://upload.wikimedia.org/wikipedia/commons/4/42/Sergio_Pérez_2021_US_GP_driver_parade_%28cropped%29.jpg", 4, 60, 1, 2011);
+        addDriver("Valtteri", "Bottas", "Sauber", 77, 34, "https://upload.wikimedia.org/wikipedia/commons/3/36/F12019_Schloss_Gabelhofen_%2820%29_%28cropped%29.jpg", 10, 60, 20, 2013);
     }
 
     private void addDriver(String firstName, String lastName, String team, int number, int age, String headshotUrl,
